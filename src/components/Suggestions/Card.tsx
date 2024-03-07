@@ -20,7 +20,7 @@ export interface CoinDetailsProp {
 const Card: React.FC<CoinDetailsProp> = ({ item }) => {
    
   return (
-    <div className="flex flex-col gap-y-3 min-w-[300px] border-2 p-4 rounded-xl">
+    <div className="flex flex-col gap-y-3 max-w-[300px] border-2 p-4 rounded-xl mx-2">
       <div className="flex items-center">
         <div className="flex gap-2 items-center">
           <Image
