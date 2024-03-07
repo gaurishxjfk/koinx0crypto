@@ -57,7 +57,7 @@ export const Loader: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <circle
     fill="#89D9FF"
     stroke="#89D9FF"
-    stroke-width="15"
+    strokeWidth="15"
     r="15"
     cx="40"
     cy="65"
@@ -75,7 +75,7 @@ export const Loader: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <circle
     fill="#89D9FF"
     stroke="#89D9FF"
-    stroke-width="15"
+    strokeWidth="15"
     r="15"
     cx="100"
     cy="65"
@@ -93,7 +93,7 @@ export const Loader: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <circle
     fill="#89D9FF"
     stroke="#89D9FF"
-    stroke-width="15"
+    strokeWidth="15"
     r="15"
     cx="160"
     cy="65"
