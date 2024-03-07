@@ -31,7 +31,7 @@ const Navbar = () => {
         <HambergerMenu setOpen={setOpen} open={open} />
         <div
           className={clsx(
-            "bg-white py-4 w-full absolute right-0 top-[5rem] flex flex-col gap-4 items-center md:hidden border-t-2 shadow-md",
+            "bg-white py-4 w-full absolute right-0 top-[5rem] flex flex-col gap-4 items-center md:hidden border-t-2 shadow-md z-30",
             !open && "hidden"
           )}
         >

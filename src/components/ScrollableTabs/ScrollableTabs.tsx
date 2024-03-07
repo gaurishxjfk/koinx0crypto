@@ -15,7 +15,7 @@ const ScrollableTabs = () => {
             className={clsx(
               "cursor-pointer whitespace-nowrap text-sm md:text-[16px]",
               item === aciveTab ?
-                "text-blue-600 font-bold underline underline-offset-8 decoration-2 " : "text-gray-600 font-semibold "
+                "text-blue-600 font-bold underline underline-offset-[10px] decoration-4 " : "text-gray-600 font-semibold "
             )}
             onClick={() => setActiveTab(item)}
           >

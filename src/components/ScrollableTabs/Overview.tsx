@@ -14,7 +14,7 @@ const Overview = () => {
         <div className="relative">
           <progress
             value={100}
-            className="lg:w-[25rem] md:w-[20rem] sm:w-[15rem] w-[5rem] h-1 md:h-2 rounded-full"
+            className="lg:w-[25rem] md:w-[20rem] sm:w-[15rem] w-[8rem] h-1.5 md:h-2 rounded-full"
           />
           <div className="flex flex-col items-center ml-[4rem] md:ml-[18rem] text-xs absolute right-2">
             <span>
@@ -37,7 +37,7 @@ const Overview = () => {
         <div className="">
           <progress
             value={100}
-            className="lg:w-[25rem] md:w-[20rem] sm:w-[15rem] w-[5rem] h-1 md:h-2 rounded-full"
+            className="lg:w-[25rem] md:w-[20rem] sm:w-[15rem] w-[8rem] h-1.5 md:h-2 rounded-full"
           />
         </div>
         <div className="text-center">
