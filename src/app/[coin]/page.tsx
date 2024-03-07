@@ -8,7 +8,6 @@ import TrendingCoins from "@/components/SideComponents/TrendingCoins";
 import Suggestions from "@/components/Suggestions/Suggestions";
 
 export default function Page({ params }: { params: { coin: string } }) {
-  console.log(params, "da");
   return (
     <main className="px-[1rem] md:px-[3.7rem]">
       <Breadcrumbs id={params.coin} />

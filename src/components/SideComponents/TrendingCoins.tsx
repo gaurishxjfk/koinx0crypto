@@ -31,7 +31,6 @@ const TrendingCoins = () => {
     handleTrendigCoins();
   }, []);
 
-  console.log(trendingCoinsArr);
   return (
     <div className="rounded-lg bg-white px-[1.5rem] py-[1.75rem] mt-2  lg:max-w-[25rem]">
       <h1 className="lg:text-xl font-semibold">Trending Coins{" (24h)"}</h1>

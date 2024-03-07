@@ -52,7 +52,6 @@ export async function getTrendingCoins() {
     }
 
     const data = await response.json();
-    console.log(data,"hhhhhhhhhh")
     if (data) {
       return data.coins;
     }
