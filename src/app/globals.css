@@ -2,22 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
+  color: "#EFF2F5";
   background: linear-gradient(
       to bottom,
       transparent,
@@ -26,8 +12,42 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.custom-scrollbar::-webkit-scrollbar {
+  width: 2px !important;
+  height: 2px !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(90, 90, 90, 0.3);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgb(88, 88, 88);
+  width: 2px !important;
+  height: 2px !important;
+  cursor: pointer;
+}
+
+progress::-webkit-progress-value {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 154, 0, 1) 10%,
+    rgba(208, 222, 33, 1) 30%,
+    rgba(79, 220, 74, 1) 50%,
+    rgba(255, 154, 0, 1) 80%,
+    rgba(255, 0, 0, 1) 100%
+  );
+}
+
+progress[value]::-webkit-progress-bar {
+  border-radius: 40px;
+}
+
+.tradingview-widget-copyright{
+  display: none !important;
+}
+
+progress[value]::-webkit-progress-value {
+  border-radius: 40px;
 }
