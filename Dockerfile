@@ -1,10 +1,14 @@
 FROM node:20.10.0-bullseye
+
 RUN mkdir -p /app
 WORKDIR /app
 
+COPY package* .
+RUN npm install
+
 COPY . .
 
-RUN npm install
+
 RUN npm run build
 
 EXPOSE 3000
